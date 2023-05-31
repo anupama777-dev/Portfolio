@@ -1,0 +1,300 @@
+body{
+    overflow-x: hidden;
+}.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+.navbar-nav .nav-item {
+    margin-right: 50px;
+}
+
+.navbar .nav-item .nav-link {
+    color: white;
+    font-size: 18px;
+    transition: background-color 0.3s;
+}
+
+.nav-link:hover {
+    background-color: rgb(77, 77, 230, 0.7);
+    border-radius: 3px;
+    font-variant: small-caps;
+}
+
+.navbar-items {
+    margin-left: auto;
+}
+
+.container-head {
+    color: white;
+    background-image: url(assets/background.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    min-height: 100vh;
+    padding-top: 100px;
+    min-width: 100%;
+}
+
+.row-head {
+    padding-top: 10px;
+    background-color: rgb(77, 77, 230, 0.7);
+    border-radius: 20px;
+    width: 100%;
+    color: white;
+    height: 150px;
+}
+
+.row1 {
+    width: 100%;
+    color: white;
+    height: 150px;
+    padding-top: 35px;
+}
+
+.container1 {
+    color: white;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url(assets/bg.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100vh;
+    position: relative;
+}
+.container2{
+    color: white;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url(assets/bg.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100vh;
+    padding-top: 20px;
+    position: relative;
+    height: 100vh;
+    min-width: 100%;
+}
+
+.wrapper {
+    margin: 0 auto;
+    text-align: left;
+}
+.how-title{
+    text-align: center;
+}
+.skill {
+    margin-bottom: 35px;
+    position: relative;
+    overflow-x: hidden;
+}
+
+.skill>p {
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+    /*margin: 0;*/
+}
+
+.skill:before {
+    width: 100%;
+    height: 5px;
+    content: "";
+    display: block;
+    position: absolute;
+    background: #959595;
+    bottom: 0;
+}
+
+.skill-bar {
+    width: 100%;
+    height: 5px;
+    background: rgb(77, 77, 230, 0.7);
+    display: block;
+    position: relative;
+}
+
+/* SKILL 1 */
+.skill1 {
+    width: 70%;
+
+}
+
+.skill-bar span {
+    position: absolute;
+    top: -30px;
+    padding: 0;
+    font-size: 18px;
+    padding: 3px 0;
+    font-weight: 500;
+}
+
+.skill-bar {
+    position: relative;
+
+}
+
+.skill1 .skill-count1 {
+    right: 0;
+}
+
+/* SKILL 2 */
+.skill2 {
+    width: 80%;
+}
+
+.skill2 .skill-count2 {
+    right: 0;
+}
+
+/* SKILL 3 */
+.skill3 {
+    width: 75%;
+}
+
+.skill3 .skill-count3 {
+    right: 0;
+}
+
+/* SKILL 4 */
+.skill4 {
+    width: 80%
+}
+
+.skill4 .skill-count4 {
+    right: 0;
+}
+
+/* SKILL 5 */
+.skill5 {
+    width: 80%;
+}
+
+.skill5 .skill-count5 {
+    right: 0;
+}
+
+/* SKILL 6 */
+.skill6 {
+    width: 80%
+}
+
+.skill6 .skill-count6 {
+    right: 0;
+}
+/* SKILL 7 */
+.skill7 {
+    width: 70%
+}
+
+.skill7 .skill-count7 {
+    right: 0;
+}
+/* SKILL 8 */
+.skill8 {
+    width: 70%
+}
+
+.skill8 .skill-count8 {
+    right: 0;
+}
+
+/* SKILL 9 */
+.skill9 {
+    width: 80%
+}
+
+.skill9 .skill-count9 {
+    right: 0;
+}
+/* SKILL 10 */
+.skill10 {
+    width: 70%
+}
+
+.skill10 .skill-count10 {
+    right: 0;
+}
+/* SKILL 11 */
+.skill11 {
+    width: 65%
+}
+
+.skill11 .skill-count11 {
+    right: 0;
+}
+/* SKILL 12 */
+.skill12 {
+    width: 50%
+}
+
+.skill12 .skill-count12 {
+    right: 0;
+}
+
+.skill {
+    margin-bottom: 10px;
+}
+.container{
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url(assets/bg.png);
+    background-size: cover;
+    min-width: 100%;
+}
+.custom-container {
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+.card-img-top{
+    width: 400px;
+    height: 270px;
+}
+.card-title{
+    text-align: center;
+}
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .contact-info {
+    margin-bottom: 20px;
+  }
+
+  .contact-info p {
+    margin: 5px 0;
+    color: white;
+    font-size: large;
+  }
+
+  .contact-info i {
+    margin-right: 10px;
+  }
+
+  .social-links {
+    margin-top: 20px;
+  }
+
+  .social-links a {
+    display: inline-block;
+    margin-right: 10px;
+    text-decoration: none;
+    color: white;
+  }
+
+  .social-links a:hover {
+    color: #4CAF50;
+  }
+
+  .social-links i {
+    margin-right: 5px;
+  }
